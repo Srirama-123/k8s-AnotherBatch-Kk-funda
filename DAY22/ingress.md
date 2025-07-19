@@ -98,9 +98,9 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx
+  ingressClassName: nginx    ( ## Means Give name external ingress controller name  Here nginx is external ingress controller)
   rules:
-  - host: javawebapp.example.com
+  - host: javawebapp.example.com    ( ## Here javawebapp.example.com is Domain name it provided by your company ) 
     http:
       paths:
       - path: /
