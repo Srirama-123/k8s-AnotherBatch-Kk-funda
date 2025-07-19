@@ -140,7 +140,7 @@ Example IPs:
 ####  On Linux:
 
 ```bash
-sudo vi /etc/hosts
+sudo vi /etc/hosts  ( add above ip address inthis path in real time we use Route53 or .......any other ) 
 ```
 
 Add:
